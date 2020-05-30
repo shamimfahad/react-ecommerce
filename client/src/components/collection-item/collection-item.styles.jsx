@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import CustomButton from '../custom-button/custom-button.component';
+import styled from "styled-components";
+import CustomButton from "../custom-button/custom-button.component";
 
 export const CollectionItemContainer = styled.div`
   width: 22vw;
@@ -8,7 +8,7 @@ export const CollectionItemContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
-  
+
   &:hover {
     .image {
       opacity: 0.8;
@@ -43,7 +43,7 @@ export const AddButton = styled(CustomButton)`
     display: block;
     opacity: 0.9;
     min-width: unset;
-    padding: 0 10px; 
+    padding: 0 10px;
   }
 `;
 
